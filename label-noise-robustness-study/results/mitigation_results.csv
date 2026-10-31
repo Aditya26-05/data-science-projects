@@ -1,0 +1,16 @@
+model,strategy,accuracy
+Logistic Regression,Clean Baseline,0.986013986013986
+Logistic Regression,Unmitigated Noisy,0.8881118881118881
+Logistic Regression,Robust Regularization,0.916083916083916
+Random Forest,Clean Baseline,0.958041958041958
+Random Forest,Unmitigated Noisy,0.8461538461538461
+Random Forest,Robust Regularization,0.8951048951048951
+XGBoost,Clean Baseline,0.958041958041958
+XGBoost,Unmitigated Noisy,0.8181818181818182
+XGBoost,Robust Regularization,0.8741258741258742
+Logistic Regression,Data Cleaning (OOF Filter),0.8531468531468531
+Random Forest,Data Cleaning (OOF Filter),0.8741258741258742
+XGBoost,Data Cleaning (OOF Filter),0.8671328671328671
+Logistic Regression,Soft Sample Reweighting,0.8811188811188811
+Random Forest,Soft Sample Reweighting,0.9090909090909091
+XGBoost,Soft Sample Reweighting,0.8321678321678322
